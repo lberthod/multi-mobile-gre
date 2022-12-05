@@ -48,23 +48,26 @@
     <div class="player-info" >
 
 <div style="margin-left: 50px;"></div>
-  <div style="align-self:flex-end;">
+<div style="align-self:flex-end;">
           
-          <button class="btn" id="bu" onclick=" handleArrowPress(0,0, -1);"><div class="chevron">↑</div></button>
-          <button class="btn" id="bd" onclick="handleArrowPress(0,0, 1);"><div class="chevron">↓</div></button> 
-        </div>  
-        <div style="align-self:flex-end;">
+  <button class="btn" id="bu" onclick=" handleArrowPress(0,0, -1);"><div class="chevron">↑</div></button>
+  <button class="btn" id="bd" onclick="handleArrowPress(0,0, 1);"><div class="chevron">↓</div></button> 
+</div>  
+<div style="align-self:flex-end;">
 
-          <button class="btn" id="bl" onclick="handleArrowPress(0,-1, 0)"><div class="chevron">←</div></button>
-          <button class="btn" id="br" onclick="handleArrowPress(0,1, 0)"><div class="chevron">→</div></button>
-        </div>
+  <button class="btn" id="bl" onclick="handleArrowPress(0,-1, 0)"><div class="chevron">←</div></button>
+  <button class="btn" id="br" onclick="handleArrowPress(0,-1, 0)"><div class="chevron">→</div></button>
+</div>
 
  
 <button onclick="menu_on()">Menu</button>
 
       <div style="align-self:flex-end;">
        
-    
+        <label for="player-message">Me</label>
+        <input id="player-message" maxlength="69" type="text" />
+        <label for="player-name">Ur</label>
+        <input id="player-name" maxlength="10" type="text" />
       </div>
       <div>
       </div>
