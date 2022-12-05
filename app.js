@@ -52,6 +52,9 @@ var url2 = "https://jsonplaceholder.typicode.com/users/1";
    userWallet.innerText = window.userWalletAddress
    walletAddress = window.userWalletAddress
    loginButton.innerText = 'Metamask Connected'
+   const elem1 = document.getElementById('btn-login');
+   elem1.style.visibility = 'visible';
+
    var x = document.getElementById("btn-login");
 
    x.style.display = "yes";
@@ -412,6 +415,7 @@ var temp = 0;
 // the player become hidden when is interact with tiles who need to be in the first layer
   function hiddenPlayer( value_t) {
     const elem = document.getElementById('play_g');
+      elem.style.visibility = 'visible';
 
     if (value_t) {
       // Remove this key from data, then uptick Player's coin count
