@@ -113,7 +113,7 @@ const mapData = {
   minX: 1,  
   maxX: 10,
   minY: 4,
-  maxY: 10  ,
+  maxY: 13  ,
   blockedSpaces: {
 
    
@@ -221,14 +221,14 @@ function getRandomSafeSpot() {
     { x: 5, y: 5 },
     { x: 5, y: 8 },
     { x: 5, y: 10 },
-   
+    { x: 5, y: 11 },
   
   
     { x: 7, y: 6 },
     { x: 7, y: 7 },
     { x: 7, y: 8 },
     { x: 8, y: 8 },
-   
+    { x: 10, y: 8 },
     { x: 8, y: 8 },
    
   
